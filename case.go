@@ -9,7 +9,7 @@ import (
 type Case struct {
 	over bool
 	cnd  *cond.Cond
-	todo *pipe.Px
+	todo *pipe.Chains
 }
 
 func (c *Case) Field(key string) string {

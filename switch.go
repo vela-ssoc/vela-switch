@@ -15,7 +15,7 @@ type Switch struct {
 	Debug   bool
 	Break   bool
 	Cases   []*Case
-	Default *pipe.Px
+	Default *pipe.Chains
 }
 
 func (s *Switch) Append(c *Case) {
